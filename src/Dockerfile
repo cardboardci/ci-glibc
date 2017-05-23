@@ -4,12 +4,14 @@ MAINTAINER jrbeverly
 # Build Arguments
 #
 # Arguments used in the build process of the docker container.
-# ..
+ARG ALPINE_GLIBC_BASE_URL
+ARG ALPINE_GLIBC_KEY
+ARG ALPINE_GLIBC_PACKAGE_VERSION
 
 # Environment Variables
 #
 # Environment variables present in the docker container.
-# ..
+#ENV LANG=C.UTF-8
 
 # Provision
 #
@@ -51,11 +53,11 @@ ARG VCS_REF
 # The metadata of the image.
 LABEL \
     org.label-schema.build-date=$BUILD_DATE \
-    org.label-schema.name="boilerplate" \
-    org.label-schema.description="A boilerplate template for docker projects." \
-    org.label-schema.url="https://gitlab.com/jrbeverly-docker/docker-boilerplate" \
+    org.label-schema.name="glibc" \
+    org.label-schema.description="An alpine image with glibc to act as a glibc base." \
+    org.label-schema.url="https://github.com/sgerrand/alpine-pkg-glibc" \
     org.label-schema.license="MIT" \
     org.label-schema.vcs-type="Git" \
     org.label-schema.vcs-ref=$VCS_REF \
-    org.label-schema.vcs-url="https://gitlab.com/jrbeverly-docker/docker-boilerplate.git" \
+    org.label-schema.vcs-url="https://gitlab.com/jrbeverly-docker/docker-glibc.git" \
     org.label-schema.version=$VERSION
