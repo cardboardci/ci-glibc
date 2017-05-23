@@ -47,6 +47,9 @@ build:
 		--build-arg BUILD_DATE="${BUILD_DATE}" \
 		--build-arg VERSION="${CODE_VERSION}" \
 		--build-arg VCS_REF="${GIT_COMMIT}" \
+		--build-arg ALPINE_GLIBC_BASE_URL="${ALPINE_GLIBC_BASE_URL}" \
+		--build-arg ALPINE_GLIBC_KEY="${ALPINE_GLIBC_KEY}" \
+		--build-arg ALPINE_GLIBC_PACKAGE_VERSION="${ALPINE_GLIBC_PACKAGE_VERSION}" \
 		--build-arg USER="${USER}" \
 		-f ${DOCKERFILE} ${DOCKER_DIR}/.
 

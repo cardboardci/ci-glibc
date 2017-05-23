@@ -18,7 +18,7 @@ variables:
   PROJECT: docker-boilerplate
   GIT_COMMIT: ${CI_COMMIT_SHA}
   PREFIX_TAG: ${CI_PIPELINE_ID}-
-  RELEASE_IMAGE: docker.io/jrbeverly/boilerplate
+  RELEASE_IMAGE: docker.io/jrbeverly/glibc
 
 # ----------------------------------------
 # Prescript
