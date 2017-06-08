@@ -1,2 +1,0 @@
-FONTFORGE_URL ?= https://github.com/BWITS/fontforge/archive/20150824.tar.gz
-PDF2HTMLEX_URL ?= https://github.com/coolwanglu/pdf2htmlEX/archive/v0.14.6.tar.gz
