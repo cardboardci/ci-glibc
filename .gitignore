@@ -1,7 +1,5 @@
 ## Editors:
 .vscode/
-.DS_Store
-*.swp
 
 ## Documentation images:
 doc/**/images/
