@@ -1,8 +1,10 @@
+## Editors:
+.vscode/
 .DS_Store
 *.swp
 
-## Documentation images
+## Documentation images:
 doc/**/images/
 
-## Test outputs
+## Test outputs:
 tests/target/
