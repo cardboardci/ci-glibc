@@ -1,5 +1,15 @@
-.DS_Store
-.vagrant
-*.swp
+# Images #
+docs/**/*.png
+
+# Test outputs
 tests/target/
-doc/images/
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
