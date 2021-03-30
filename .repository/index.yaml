@@ -1,0 +1,19 @@
+slug: ci-glibc
+description: '[DEPRECATED] A super small image with glibc installed, to allow binaries compiled against glibc to work.'
+project: cardboardci
+namespace: ci
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "docker",
+    "docker-ci-images",
+    "gitlab-ci",
+    "alpine",
+    "glibc",
+    "docker-latex"
+  ]
